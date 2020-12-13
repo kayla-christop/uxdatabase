@@ -1,0 +1,670 @@
+{
+    "tools": [
+        {
+            "name": "UXtweak",
+            "image": "https://www.uxtweak.com/logo-vertical.svg",
+            "link": "https://www.uxtweak.com/",
+            "category": [
+                "Mental Modeling Tools",
+                "Screen Capturing/Recording Tools",
+                "Collaborative Affinity Diagramming",
+                "Interviewing Tools"
+            ],
+            "info": {
+                "Unlimited Data Storage": "✓",
+                "Support": "✕",
+                "Custom Branding": "✕",
+                "# of Detailed PDF Reports": "1 Report (per 48 hours)",
+                "Teammate Limit": "2",
+                "Recording Sessions per Month": "30",
+                "Session Storage": "1 Month",
+                "Unlimited Tree Structure": "✓",
+                "Respondants per Study": "Limited",
+                "Tasks per Study": "Limited"
+            },
+            "features": [
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing"
+            ]
+        },
+        {
+            "name": "HotJar",
+            "image": "https://seeklogo.com/images/H/hotjar-logo-7F1ECF09D5-seeklogo.com.png",
+            "link": "https://www.hotjar.com/",
+            "category": [
+                "Screen Capturing/Recording Tools",
+                "Mental Modeling Tools",
+                "Interviewing Tools",
+                "Remote Testing Tools"
+            ],
+            "info": {
+                "# of Pageviews per Month": "60,000 Pageviews",
+                "# of Recorded Sessions": "Store up to 300 Recording Sessions",
+                "Months of Data Storage": "12 Months",
+                "Team Access": "✓",
+                "Heatmaps Suite": "✓",
+                "Targeting": "URL Only",
+                "Compatability with Multiple Websites": "✓",
+                "Mobile Support": "✓",
+                "Conversion Funnel Analytics": "✓"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing"
+            ]
+        },
+        {
+            "name": "Inspectlet",
+            "link": "https://www.inspectlet.com/",
+            "image": "data:image/png;base64,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",
+            "category": [
+                "Screen Capturing/Recording Tools",
+                "Mental Modeling Tools",
+                "Remote Testing Tools",
+                "Ecosystem Mapping Tools"
+            ],
+            "info": {
+                "# of Pageviews per Month": "10,000 Pageviews",
+                "# of Recorded Sessions": "1,000 Recorded Sessions",
+                "Months of Data Storage": "1 Month",
+                "Team Access": "✕",
+                "Heatmaps Suite": "✓",
+                "Targeting": "✕",
+                "Compatability with Multiple Websites": "✓",
+                "Mobile Support": "✓",
+                "Conversion Funnel Analytics": "✕" 
+            },
+            "features": [
+                "Multiplatform",
+                "Mobile Friendly"
+            ]
+        
+        },
+        {
+            "name": "Open Broadcaster Software Studio",
+            "link": "https://obsproject.com/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/OBS.svg/1024px-OBS.svg.png",
+            "category": [
+                "Screen Capturing/Recording Tools",
+                "Remote Testing Tools"
+            ],
+            "info": {
+                "# of Pageviews per Month": "✕",
+                "# of Recorded Sessions": "Unlimited",
+                "Months of Data Storage": "Unlimited",
+                "Team Access": "✓",
+                "Heatmaps Suite": "✕",
+                "Targeting": "✕",
+                "Compatability with Multiple Websites": "✓",
+                "Mobile Support": "Must Download a Mobile extension (OBS Multiplatform)",
+                "Conversion Funnel Analytics": "✕"
+            },
+            "features": [
+                "Multiplatform"
+            ]
+        },
+        {
+            "name": "Custellence",
+            "link": "https://custellence.com/",
+            "image": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_978a77db16392d4a34132d8d265d9e46/custellence.png",
+            "category": [
+                "Journey Mapping Tools",
+                "Ecosystem Mapping Tools"
+            ],
+            "info": {
+                "# of Projects": "1 Project",
+                "Collaboration": "✓ (Unlimited Viewing and Link Sharing)",
+                "Personas": "✕",
+                "Commenting": "✕",
+                "# of Cards": "60 Cards",
+                "Export Maps": "✕",
+                "Offline Compatability": "✕",
+                "Mobile Support": "✕",
+                "Educational Pricing": "✓"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Educational Pricing"
+            ]
+        },
+        {
+            "name": "Lucidchart",
+            "link": "https://www.lucidchart.com/pages/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lucidchart_2020_logo.svg/2000px-Lucidchart_2020_logo.svg.png",
+            "category": [
+                "Journey Mapping Tools",
+                "Ecosystem Mapping Tools"
+            ],
+            "info": {
+                "# of Projects": "3 Projects/Documents",
+                "Collaboration": "✓",
+                "Personas": "✕",
+                "Commenting": "✓",
+                "# of Cards": "Unlimited",
+                "Export Maps": "✓",
+                "Offline Compatability": "✕",
+                "Mobile Support": "✓",
+                "Educational Pricing": "✓"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing"
+            ]
+        },
+        {
+            "name": "UXPressia",
+            "image": "https://static.tildacdn.com/tild3963-6439-4137-b837-616530656233/UXPRESSIA.png",
+            "link": "https://uxpressia.com/",
+            "category": [
+                "Journey Mapping Tools",
+                "Ecosystem Mapping Tools",
+                "Personas"
+            ],
+            "info": {
+                "# of Projects": "1 Project",
+                "Collaboration": "✓ (Email Sharing with 1 User)",
+                "Personas": "✓ (1 Persona)",
+                "Commenting": "✓",
+                "# of Cards": "Unlimited",
+                "Export Maps": "✓ (PNG only)",
+                "Offline Compatability": "✓",
+                "Mobile Support": "✕",
+                "Educational Pricing": "✓"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Educational Pricing",
+                "External UX Integrations"
+            ]
+        },
+        {
+            "name": "Interaction Design Foundation",
+            "image": "https://plsadaptive.s3.amazonaws.com/eco/images/partners/7C6ElKl5MzvyPF9yeHDhTgEq3spVSoMLql7NYcHn.png",
+            "link": "https://www.interaction-design.org/templates/empathy-map",
+            "category": [
+                "Empathy Mapping Tools"
+            ],
+            "info": {
+                "Downloadable": "✓",
+                "Login Required": "✓ (Name and Email)",
+                "Security": "✓",
+                "Editable Document": "Printing Recommended",
+                "# of Quadrants": "4 (Said, Did, Thought, Felt)"
+            },
+            "features": [
+                "Multiplatform"
+            ]
+        },
+        {
+            "name": "Figma",
+            "link": "https://www.figma.com/",
+            "image": "https://i.pinimg.com/originals/a5/58/b4/a558b426cb8973523f37bbed94cf0f09.png",
+            "category": [
+                "Wirefirming Tools",
+                "Prototyping Tools"
+            ],
+            "info": {
+                "# of Editors": "2",
+                "# of Projects": "3",
+                "# of Viewers": "Unlimited",
+                "Data Storage": "Unlimited Cloud Storage",
+                "Export Projects": "✓ (PDF, PNG, JPG, SVG)",
+                "Cross Platform": "Windows, Mac, Linux",
+                "Interactive Prototypes/Transitions/Animations": "✓",
+                "Private Projects": "✕",
+                "Educational Pricing": "✓ (Premium is free for students and educators)"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing",
+                "External UX Integrations"
+            ]
+        },
+        {
+            "name": "Pencil Project",
+            "link": "https://pencil.evolus.vn/",
+            "image": "https://cdn2.portableapps.com/PencilProjectPortable_128.png",
+            "category": [
+                "Wirefirming Tools"
+            ],
+            "info": {
+                "# of Editors": "Unlimited",
+                "# of Projects": "Unlimited",
+                "# of Viewers": "Unlimited",
+                "Data Storage": "Unlimited",
+                "Export Projects": "✓ (PDF, PNG, SVG)",
+                "Cross Platform": "Windows, Mac, Linux",
+                "Interactive Prototypes/Transitions/Animations": "✕",
+                "Private Projects": "✕",
+                "Educational Pricing": "Totally Free"
+            },
+            "features": [
+                "Multiplatform"
+            ]
+        },
+        {
+            "name": "NinjaMock",
+            "link": "https://ninjamock.com/",
+            "image": "https://ph-files.imgix.net/18fbb168-69ca-459c-ad66-82a24a44ee97?auto=format",
+            "category": [
+                "Wirefirming Tools"
+            ],
+            "info": {
+                "# of Editors": "Unlimited",
+                "# of Projects": "1",
+                "# of Viewers": "Up to 200",
+                "Data Storage": "500 MB",
+                "Export Projects": "✕",
+                "Cross Platform": "Android, iOS, Windows, Mac",
+                "Interactive Prototypes/Transitions/Animations": "✓",
+                "Private Projects": "✕",
+                "Educational Pricing": "70% discount"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing"
+            ]
+        },
+        {
+            "name": "InVision",
+            "link": "https://www.invisionapp.com/",
+            "image": "https://zammodigital.com/wp-content/uploads/2018/01/invision-logo-pink-1024x343.png",
+            "category": [
+                "Prototyping Tools",
+                "Online Collaborative Whiteboard",
+                "Collaborative Affinity Diagramming"
+            ],
+            "info": {
+                "# of Active Users": "3",
+                "# of Documents": "3",
+                "Interactive Prototypes": "✓",
+                "Digital Whiteboard": "✓ (Unlimited Space)",
+                "External Integrations": "Sketch, Photoshop, JIRA, Storybook",
+                "Commenting": "✓",
+                "Project Transfers/Public Sharing": "✓",
+                "Site Password Protection": "✕"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing",
+                "External UX Integrations"
+            ]
+        },
+        {
+            "name": "Origami Studio",
+            "link": "https://origami.design/",
+            "image": "https://i.pinimg.com/originals/5e/ae/eb/5eaeeb38f2b49a0aa0c85f18317aab79.png",
+            "category": [
+                "Prototyping Tools",
+                "Screen Capturing/Recording Tools"
+            ],
+            "info": {
+                "# of Active Users": "Unlimited",
+                "# of Documents": "Unlimited",
+                "Interactive Prototypes": "✓",
+                "Digital Whiteboard": "✕",
+                "External Integrations": "Sketch, Figma",
+                "Commenting": "✓ (Comment Patches)",
+                "Project Transfers/Public Sharing": "✓",
+                "Site Password Protection": "✕"
+            },
+            "features": [
+                "Collaborative",
+                "Mobile Friendly",
+                "External UX Integrations"
+            ]
+        },
+        {
+            "name": "Webflow",
+            "link": "https://webflow.com/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Webflow_logo.svg/1280px-Webflow_logo.svg.png",
+            "category": [
+                "Prototyping Tools"
+            ],
+            "info": {
+                "# of Active Users": "0 (For Free Plan)",
+                "# of Documents": "2",
+                "Interactive Prototypes": "✓",
+                "Digital Whiteboard": "✕",
+                "External Integrations": "✕",
+                "Commenting": "✕ (Without Additional Widgets)",
+                "Project Transfers/Public Sharing": "✕",
+                "Site Password Protection": "✕"
+            },
+            "features": [
+                "Mobile Friendly",
+                "Educational Pricing",
+                "Beginner Friendly"
+            ]
+        },
+        {
+            "name": "Typeform",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Typeform_Logo.svg/1200px-Typeform_Logo.svg.png",
+            "link": "https://www.typeform.com/",
+            "category": [
+                "Interviewing Tools"
+            ],
+            "info": {
+                "# of Questions": "10 Questions per Typeform",
+                "# of Responses": "100 Repsonses per Month",
+                "# of Included Languages": "Up to 2 Languages (Free Plan)",
+                "Question Branching": "✕",
+                "Educational Pricing": "40% One Time Discount on a Monthly Plan & 50% One Time Discount on a Yearly Plan",
+                "Upload Storage": "4 GB",
+                "Ads": "✕",
+                "Pre-Written Templates": "✓",
+                "Device Compatability": "Mobile, Tablet, Desktop"
+            },
+            "features": [
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing",
+                "Beginner Friendly"
+            ]
+        },
+        {
+            "name": "Surveyplanet",
+            "image": "https://public.surveyplanet.com/images/blog/2019/10/surveyplanet-logo@4x.png",
+            "link": "https://surveyplanet.com/",
+            "category": [
+                "Interviewing Tools"
+            ],
+            "info": {
+                "# of Questions": "Unlimited ",
+                "# of Responses": "Unlimited",
+                "# of Included Languages": "20+ Languages",
+                "Question Branching": "✕ (Available for Pro Membership Exclusively)",
+                "Educational Pricing": "✕",
+                "Upload Storage": "Cloud-Based Storage",
+                "Ads": "✕",
+                "Pre-Written Templates": "✓",
+                "Device Compatability": "Mobile, Desktop"
+            },
+            "features": [
+                "Multiplatform",
+                "Mobile Friendly"
+            ]
+        },
+        {
+            "name": "Limesurvey",
+            "image": "https://account.limesurvey.org/images/logos/logo_main.png",
+            "link": "https://www.limesurvey.org/en/",
+            "category": [
+                "Interviewing Tools"
+            ],
+            "info": {
+                "# of Questions": "Unlimited",
+                "# of Responses": "25 Responses per Month",
+                "# of Included Languages": "80+ Languages",
+                "Question Branching": "✕",
+                "Educational Pricing": "50% Discount for Students & 30% Discount for Public Educational Institutions",
+                "Upload Storage": "10 MB",
+                "Ads": "✓",
+                "Pre-Written Templates": "✓",
+                "Device Compatability": "Mobile, Desktop"
+            },
+            "features": [
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing"
+            ]
+        },
+        {
+            "name": "Contrast",
+            "image": "https://ph-files.imgix.net/bb8dd72c-b3e2-4204-8fca-52602f1c83e9?auto=format&auto=compress&codec=mozjpeg&cs=strip",
+            "link": "https://usecontrast.com/",
+            "category": [
+                "Accessbility Checkers",
+                "Wireframing Tools"
+            ],
+            "info": {
+                "# of Colorblind Simulations": "Unspecified",
+                "Contrast Checker": "✓",
+                "Browser Extension": "Browser App",
+                "Targeted Forms of CVD": "Nonspecific (Legally Blind & Variations of CVD)",
+                "Cross Platform": "Mac/iOS",
+                "External UX Plugins": "Sketch, Figma, Adobe XD, Adobe Illustrator, Adobe Photoshop",
+                "Filtering": "✓"
+            },
+            "features": [
+                "Multiplatform",
+                "Mobile Friendly",
+                "External UX Integrations"
+            ]
+        },
+        {
+            "name": "Color Oracle",
+            "image": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/0dacb322-9b24-11e6-b4a2-00163ed833e7/2137658582/color-oracle-screenshot.jpg",
+            "link": "https://colororacle.org/",
+            "category": [
+                "Accessbility Checkers",
+                "Wireframing Tools"
+            ],
+            "info": {
+                "# of Colorblind Simulations": "3",
+                "Contrast Checker": "✓",
+                "Browser Extension": "✕",
+                "Targeted Forms of CVD": "Deuteranopia, Protanopia, & Tritanopia",
+                "Cross Platform": "Mac, Windows, Linux",
+                "External UX Plugins": "✕",
+                "Filtering": "✓"
+            },
+            "features": [
+                "Multiplatform"
+            ]
+        },
+        {
+            "name": "Spectrum",
+            "image": "https://lh3.googleusercontent.com/ZTGnne5s9adggQgW8zszjKkHd8XGvTjA-emSgedbjSeYqmEgNHjglQOFr5b5ncLbiAqOx4ri=w128-h128-e365-rj-sc0x00ffffff",
+            "link": "https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en",
+            "category": [
+                "Accessbility Checkers",
+                "Wireframing Tools"
+            ],
+            "info": {
+                "# of Colorblind Simulations": "Unspecified",
+                "Contrast Checker": "✓",
+                "Browser Extension": "Chrome Browser Extension",
+                "Targeted Forms of CVD": "Nonspecific",
+                "Cross Platform": "Mac, Windows, Linux",
+                "External UX Plugins": "✕",
+                "Filtering": "✓"
+            },
+            "features": [
+                "Multiplatform"
+            ]
+        },
+        {
+            "name": "Stark",
+            "image": "data:image/png;base64,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",
+            "link": "https://www.getstark.co/",
+            "category": [
+                "Accessbility Checkers",
+                "Wireframing Tools"
+            ],
+            "info": {
+                "# of Colorblind Simulations": "3",
+                "Contrast Checker": "✓",
+                "Browser Extension": "✕",
+                "Targeted Forms of CVD": "Nonspecific",
+                "Cross Platform": "Mac, Windows, Linux",
+                "External UX Plugins": "Figma, Sketch, Adobe XD",
+                "Filtering": "✓"
+            },
+            "features": [
+                "Multiplatform",
+                "External UX Integrations"
+            ]
+        },
+        {
+            "name": "WebFX Readability Test",
+            "image": "https://www.webfx.com/img/logo-white-bg/wpfx-big.png",
+            "link": "https://www.webfx.com/tools/read-able/",
+            "category": [
+                "Test Checkers: Readability Score"
+            ],
+            "info": {
+                "Available for webpages": "✓",
+                "Available for direct links/URLs": "✓",
+                "Readibiltiy Indicators": "Flesch Kincaid Reading Ease, Flesch Kincaid Grade Level, Gunning Fog Score, Coleman Liau Index, Automated Readability Index, SMOG Index",
+                "Audience": "Available for Everyone"
+            },
+            "features": [
+                "Multiplatform",
+                "Mobile Friendly"
+            ]
+        },
+        {
+            "name": "Miro",
+            "image": "https://financesonline.com/uploads/2020/10/miro-logo.png",
+            "category": [
+                "Online Collaborative Whiteboard",
+                "Collaborative Affinity Diagramming"
+            ],
+            "info": {
+               "# of Boards": "3 Boards",
+               "# of Participants per Board": "Unlimited",
+               "Collaborative Viewers": "View-Only",
+               "Integrations": "Slack, Microsoft Teams, Trello, Zapier, Google Drive, Microsoft One Drive, Dropbox, Box, Adobe Creative Cloud, Sketch, Unsplash",
+               "Live Moderation": "✓",
+               "Screen Sharing": "✕",
+               "Public Boards": "✓",
+               "Import Files": "✓",
+               "Export Files": "✓ (.PDF, .JPG, & .CSV)"
+            },
+            "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing",
+                "External UX Integrations"
+            ]
+        },
+        {
+            "name": "Conceptboard",
+            "image": "https://avatars0.githubusercontent.com/u/781879?s=280&v=4",
+            "link": "https://conceptboard.com/",
+            "category": [
+                "Online Collaborative Whiteboard",
+                "Collaborative Affinity Diagramming"
+            ],
+            "info": {
+                "# of Boards": "Unlimited",
+                "# of Participants per Board": "50 Participants",
+                "Collaborative Viewers": "✓",
+                "Integrations": "✕",
+                "Live Moderation": "✓",
+                "Screen Sharing": "✕",
+                "Public Boards": "✓ (Via Email, Direct Link, etc.)",
+                "Import Files": "✓ (Dropbox, Google Drive, Box, OneDrive)",
+                "Export Files": "✓ (.PNG)"
+             },
+             "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly",
+                "Educational Pricing"
+            ]
+        },
+        {
+            "name": "Ziteboard",
+            "image": "https://play-lh.googleusercontent.com/MnQovSmblPD37kk1VE41d6sX9fCoP55FcI_sTIFXbVv7-R2Q6HIBbYPBCGGmU2cz4c8",
+            "link": "https://ziteboard.com/",
+            "category": [
+                "Online Collaborative Whiteboard",
+                "Collaborative Affinity Diagramming"
+            ],
+            "info": {
+                "# of Boards": "3 Boards",
+                "# of Participants per Board": "Unlimited",
+                "Collaborative Viewers": "✓",
+                "Integrations": "✕",
+                "Live Moderation": "✕",
+                "Screen Sharing": "✕ (Links for Share to View)",
+                "Public Boards": "✓",
+                "Import Files": "✓ (Image & PDF)",
+                "Export Files": "✓ (.PNG, .SVG, .PDF)"
+             },
+             "features": [
+                "Collaborative",
+                "Multiplatform",
+                "Mobile Friendly"
+            ]
+        },
+        {
+            "name": "Meaningcloud",
+            "image": "https://www.meaningcloud.com/wp-content/uploads/2015/09/LogoMeaningCloud650x264.png",
+            "link": "https://www.meaningcloud.com/",
+            "category": [
+                "Text Mining Tools"
+            ],
+            "info": {
+                "# of Requests per Month": "20,000",
+                "# of Requests per Second": "2",
+                "Integrations": "✕",
+                "Categorization Tools": "✓",
+                "# of Classification Models": "1 Model",
+                "Categories per Classification Model": "10 Categories",
+                "# of Sentiment Models": "1 Model",
+                "Categories per Sentiment Model": "30 Categories",
+                "Analysis in Other Languages": "✕"
+                
+            },
+            "features": [
+                "Multiplatform",
+                "Beginner Friendly"
+            ]
+        },
+        {
+            "name": "Infolio Template",
+            "image": "https://project-management.com/wp-content/uploads/2020/10/infolio-logo.png",
+            "link": "https://www.infolio.co/templates/product-discovery/how-to-conduct-a-user-interview-with-template",
+            "category": [
+                "Interview Note Taking Tools",
+                "Personas"
+            ],
+            "info": {
+                "Downloadable": "✕ (Availalbe Through Infolio)",
+                "Sign-Up Required": "✓ (Must Link with Google Account or Provide Email)",
+                "Categories Covered": "Date, Interviewer, Interviewee, Things to Keep in Mind, Questions, Answers",
+                "Persona Creation": "✓",
+                "Public Availability": "✓ (Available to Everyone who Signs-Up)"
+            },
+            "features": [
+                "Multiplatform"
+            ]
+        },
+        {
+            "name": "Miro Template",
+            "image": "https://financesonline.com/uploads/2020/10/miro-logo.png",
+            "link": "https://miro.com/templates/user-interview/",
+            "category": [
+                "Interview Note Taking Tools",
+                "Personas"
+            ],
+            "info": {
+                "Downloadable": "✕ (Available Through Miro)",
+                "Sign-Up Required": "✓ (Must Link with Google Account or Provide Work Email)",
+                "Categories Covered": "Name, Background (Professional & Personal), Questions, Answers",
+                "Persona Creation": "✓",
+                "Public Availability": "✓"
+            },  
+            "features": [
+                "Multiplatform"
+            ]
+        }
+    ]
+}
