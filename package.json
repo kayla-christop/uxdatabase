@@ -1,0 +1,23 @@
+{
+  "name": "uxdatabase",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "description": "",
+  "main": "Test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayla-christop/uxdatabase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayla-christop/uxdatabase/issues"
+  },
+  "homepage": "https://github.com/kayla-christop/uxdatabase#readme"
+}
