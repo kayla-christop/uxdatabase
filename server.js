@@ -24,6 +24,6 @@ http.createServer(function(request, response) {
         "content-type": "text/html"
     });
     response.end(body);
-}).listen(env.PORT);
+}).listen(process.env.PORT);
 
 console.log("Server Started!");
