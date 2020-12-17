@@ -178,6 +178,13 @@ window.addEventListener("load", async function(event) {
             }
         });
     });
+
+    document.getElementById("clearButton").addEventListener("click",function(event){
+        let checkboxes = document.querySelectorAll("input[type=checkbox]");
+        Array.from(checkboxes).forEach(function(checkbox){
+            checkbox.checked=false;
+        });
+    });
 });
 
 /*
