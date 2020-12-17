@@ -182,7 +182,7 @@ window.addEventListener("load", async function(event) {
             }
         });
 
-        if (areresults) {
+        if (!areresults) {
             document.getElementById("noresults").style.display = "block";
         }
     });
