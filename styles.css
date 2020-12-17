@@ -95,12 +95,12 @@ height: 10px;
 }
 
 #filter::-webkit-scrollbar-thumb {
-background: #dcdcdb;
+background: rgb(243, 82, 82);
 border-radius: 4px;
 }
 
 #filter::-webkit-scrollbar-track {
-background: rgb(255 150 150);
+background: #dcdcdb;
 margin-top: 55px;
 margin-bottom: 55px;
 border-radius: 4px;
