@@ -83,11 +83,21 @@ td {
     overflow-x: hidden;
     margin-top: 30px;
     -ms-overflow-style: none;
-    scrollbar-width: none;
+    scrollbar-color:  rgb(243, 82, 82) rgb(252, 155, 155);
+    scrollbar-width: thin;
 }
 
 #filter::-webkit-scrollbar {
-  display: none;
+  width: 10px;
+  height: 10px;
+}
+
+#filter::-webkit-scrollbar-thumb {
+  background: rgb(243, 82, 82);
+}
+
+#filter::-webkit-scrollbar-track {
+  background: rgb(252, 155, 155);
 }
 
 #filterForm {
