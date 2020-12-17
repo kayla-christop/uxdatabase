@@ -4,10 +4,6 @@ const fs = require("fs");
 http.createServer(function(request, response) {
     let url = request.url;
 
-    if (url == "/favicon.ico") {
-        return;
-    }
-
     if (url == "/") {
         url = "/index.html";
     }
