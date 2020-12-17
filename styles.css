@@ -83,7 +83,7 @@ td {
     overflow-x: hidden;
     margin-top: 30px;
     -ms-overflow-style: none;
-    scrollbar-color:  rgb(243, 82, 82) rgb(252, 155, 155);
+    scrollbar-color:  rgb(243, 82, 82) rgb(252, 221, 221);
     scrollbar-width: thin;
 }
 
@@ -97,7 +97,7 @@ td {
 }
 
 #filter::-webkit-scrollbar-track {
-  background: rgb(252, 155, 155);
+  background: rgb(252, 221, 221);
 }
 
 #filterForm {
