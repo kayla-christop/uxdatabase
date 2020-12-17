@@ -143,6 +143,7 @@ window.addEventListener("load", async function(event) {
 
         document.getElementById("intro").style.display = "none";
         document.getElementById("bottomtext").style.display = "none";
+        document.getElementById("noresults").style.display="none";
 
         let categories = document.getElementsByClassName("categories");        
         let checkedCategories = [];
@@ -160,6 +161,8 @@ window.addEventListener("load", async function(event) {
             }
         });
 
+        let areresults=false;
+
         database.tools.forEach(function(tool) {
             let isChecked = checkedCategories.every(function(categoryCheck) {
                 return tool.category.includes(categoryCheck);
@@ -173,10 +176,15 @@ window.addEventListener("load", async function(event) {
 
             if (isChecked) {
                 toolDivList[tool.name].style.display = "block";
+                areresults=true;
             } else {
                 toolDivList[tool.name].style.display = "none";
             }
         });
+
+        if (areresults) {
+            document.getElementById("noresults").style.display = "block";
+        }
     });
 
     document.getElementById("clearButton").addEventListener("click",function(event){
