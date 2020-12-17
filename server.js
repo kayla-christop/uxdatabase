@@ -4,6 +4,14 @@ const fs = require("fs");
 http.createServer(function(request, response) {
     let url = request.url;
 
+    if (url == "/favicon.ico") {
+        response.writeHead(200, {
+            "content-type": "image/x-icon"
+        });
+        fs.createReadStream("./favicon.ico").pipe(response);
+        return;
+    }
+
     if (url == "/") {
         url = "/index.html";
     }
