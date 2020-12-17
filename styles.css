@@ -107,6 +107,7 @@ input[type = submit], #clearButton {
 #clearButton {
   border: 2px solid rgb(243, 82, 82);
   background-color:rgb(243, 82, 82); 
+  margin-left: 15px;
 }
 
 input[type = submit]:active {
