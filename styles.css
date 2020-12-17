@@ -74,30 +74,37 @@ td {
 }
 
 #filter {
-    height: 100%;
-    width: 260px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    margin-top: 30px;
-    -ms-overflow-style: none;
-    scrollbar-color:  rgb(243, 82, 82) rgb(0,0,0,0);
-    scrollbar-width: thin;
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  margin-top: 30px;
+  -ms-overflow-style: none;
+  scrollbar-color:  rgb(243, 82, 82) rgb(255 150 150);
+  scrollbar-width: thin;
+  padding-right: 3px
 }
 
 #filter::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+width: 5px;
+height: 10px;
+
 }
 
 #filter::-webkit-scrollbar-thumb {
-  background: rgb(243, 82, 82);
+background: rgb(243, 82, 82);
+border-radius: 4px;
 }
 
 #filter::-webkit-scrollbar-track {
-  background: rgb(0,0,0,0);
+background: rgb(255 150 150);
+margin-top: 55px;
+margin-bottom: 55px;
+border-radius: 4px;
+
 }
 
 #filterForm {
