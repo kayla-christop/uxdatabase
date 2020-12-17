@@ -301,3 +301,10 @@ form {
     opacity:1;
 }
 }
+
+#noresults {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 190px;
+  color: #262625;
+}
