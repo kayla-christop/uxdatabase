@@ -69,7 +69,8 @@ td {
     border: 2px solid #262625;
     font-size: 20px;
     margin-bottom: 10px;
-    border-radius: 5px
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #filter {
@@ -93,7 +94,7 @@ td {
   padding-right: 0px;
 }
 
-input[type = submit] {
+input[type = submit], #clearButton {
     display: block;
     color: white;
     border: 2px solid #262625;
@@ -103,12 +104,22 @@ input[type = submit] {
     float: left;
 }
 
+#clearButton {
+  border: 2px solid rgb(243, 82, 82);
+  background-color:rgb(243, 82, 82); 
+}
+
 input[type = submit]:active {
     border: 2px solid #454543;
     background-color: #454543
 }
 
-input[type = submit]:hover {
+#clearButton:active {
+  border: 2px solid rgb(240, 102, 102);
+  background-color: rgb(240, 102, 102)
+}
+
+input[type = submit]:hover, #clearButton:hover {
 cursor: pointer
 }
 
