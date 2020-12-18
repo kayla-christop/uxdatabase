@@ -85,7 +85,6 @@ td {
   -ms-overflow-style: none;
   scrollbar-color:  rgb(243, 82, 82) rbg(0,0,0,0);
   scrollbar-width: thin;
-  padding-right: 3px
 }
 
 #filter::-webkit-scrollbar {
@@ -101,10 +100,6 @@ border-radius: 4px;
 
 #filter::-webkit-scrollbar-track {
 background: rbg(0,0,0,0);
-margin-top: 55px;
-margin-bottom: 55px;
-border-radius: 4px;
-
 }
 
 #filterForm {
