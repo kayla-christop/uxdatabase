@@ -193,10 +193,6 @@ window.addEventListener("load", async function(event) {
             checkbox.checked=false;
         });
     });
-
-    function clearIt() {
-        document.getElementById("filter").value = "";
-    }
 });
 
 /*
