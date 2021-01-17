@@ -193,7 +193,7 @@ window.addEventListener("load", async function(event) {
             checkbox.checked=false;
         });
 
-        toolDivList.forEach(function(tool){
+        Object.entries(toolDivList).forEach(function(tool){
             tool.style.display = none
         });
     });
