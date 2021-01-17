@@ -194,7 +194,7 @@ window.addEventListener("load", async function(event) {
         });
 
         Object.entries(toolDivList).forEach(function(tool){
-            tool.style.display = none
+            tool.style.display = "none"
         });
     });
 });
