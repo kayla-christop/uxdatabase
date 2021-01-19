@@ -328,7 +328,7 @@ form {
   width: 5vw;
   border-style: solid;
   border-color: black;
-  margin-left: 320px;
+  margin-left: 450px;
   border-width: 0px 5px 5px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
