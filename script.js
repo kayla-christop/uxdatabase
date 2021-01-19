@@ -143,7 +143,8 @@ window.addEventListener("load", async function(event) {
 
         document.getElementById("intro").style.display = "none";
         document.getElementById("bottomtext").style.display = "none";
-        document.getElementById("noresults").style.display="none";
+        document.getElementById("noresults").style.display = "none";
+        document.getElementById("filteragain").style.display = "none";
 
         let categories = document.getElementsByClassName("categories");        
         let checkedCategories = [];
@@ -196,8 +197,11 @@ window.addEventListener("load", async function(event) {
         Object.values(toolDivList).forEach(function(tool){
             tool.style.display = "none"
         });
-        
+
         document.getElementById("filteragain").style.display = "block";
+        document.getElementById("intro").style.display = "none";
+        document.getElementById("bottomtext").style.display = "none";
+        document.getElementById("noresults").style.display = "none";
     });
 
 
