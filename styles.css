@@ -324,17 +324,17 @@ form {
 
 .downArrow {
   box-sizing: border-box;
-  height: 5vw;
-  width: 5vw;
+  height: 3vw;
+  width: 3vw;
   border-style: solid;
   border-color: black;
-  margin-left: 490px;
+  margin-left: 510px;
   border-width: 0px 5px 5px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
 }
 
 .downArrow:hover {
-  border-bottom-width: 4px;
-  border-right-width: 4px;
+  border-color: #545252;
+  cursor: pointer;
 }
