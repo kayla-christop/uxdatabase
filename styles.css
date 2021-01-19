@@ -322,6 +322,13 @@ form {
   color: #262625;
 }
 
+#filteragain {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 23%;
+  color: #262625;
+}
+
 .downArrow {
   box-sizing: border-box;
   height: 3vw;
