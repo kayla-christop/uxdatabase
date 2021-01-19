@@ -327,8 +327,9 @@ form {
   height: 5vw;
   width: 5vw;
   border-style: solid;
-  border-color: white;
-  border-width: 0px 1px 1px 0px;
+  border-color: black;
+  margin-left: 650px;
+  border-width: 0px 5px 5px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
 }
@@ -336,17 +337,4 @@ form {
 .downArrow:hover {
   border-bottom-width: 4px;
   border-right-width: 4px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0e242d;
-  height: 100vh;
-}
-
-#full {
-  height: 100vh;
-  background-color: #256347;
 }
