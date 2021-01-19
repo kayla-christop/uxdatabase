@@ -196,7 +196,11 @@ window.addEventListener("load", async function(event) {
         Object.values(toolDivList).forEach(function(tool){
             tool.style.display = "none"
         });
+        
+        document.getElementById("filteragain").style.display = "block";
     });
+
+
     
     smoothScroll.init();
 });
