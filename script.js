@@ -197,6 +197,8 @@ window.addEventListener("load", async function(event) {
             tool.style.display = "none"
         });
     });
+    
+    smoothScroll.init();
 });
 
 /*
