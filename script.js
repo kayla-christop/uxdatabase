@@ -203,6 +203,10 @@ window.addEventListener("load", async function(event) {
         document.getElementById("bottomtext").style.display = "none";
         document.getElementById("noresults").style.display = "none";
     }); 
+
+    document.getElementById("bottomtext").addEventListener("click",function(event){
+        document.getElementById("about").scrollIntoView({behavior:"smooth"})
+    });
 });
 
 /*
