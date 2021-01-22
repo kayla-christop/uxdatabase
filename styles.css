@@ -338,7 +338,7 @@ form {
   margin-left: 15%;
   border-width: 0px 5px 5px 0px;
   transform: rotate(45deg);
-  /* transition: border-width 150ms ease-in-out;  */
+  transition: border-width 150ms ease-in-out;
 }
 
 .downArrow:hover {
