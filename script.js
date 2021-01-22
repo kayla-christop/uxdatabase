@@ -205,7 +205,9 @@ window.addEventListener("load", async function(event) {
     }); 
 
     document.getElementById("bottomtext").addEventListener("click",function(event){
-        document.getElementById("about").scrollIntoView({behavior:"smooth"})
+        document.getElementById("about").scrollIntoView({behavior:"smooth"});
+        document.getElementById("intro").style.display = "none";
+        document.getElementById("bottomtext").style.display = "none";
     });
 });
 
