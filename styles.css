@@ -335,10 +335,10 @@ form {
   width: 3vw;
   border-style: solid;
   border-color: black;
-  margin-left: 510px;
+  margin-left: 510%;
   border-width: 0px 5px 5px 0px;
   transform: rotate(45deg);
-  transition: border-width 150ms ease-in-out;
+  /* transition: border-width 150ms ease-in-out; */
 }
 
 .downArrow:hover {

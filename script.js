@@ -202,11 +202,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("intro").style.display = "none";
         document.getElementById("bottomtext").style.display = "none";
         document.getElementById("noresults").style.display = "none";
-    });
-
-
-    
-    smoothScroll.init();
+    }); 
 });
 
 /*
