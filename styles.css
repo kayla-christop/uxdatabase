@@ -346,12 +346,10 @@ form {
   cursor: pointer;
 }
 
-#content {
-  margin: 50px;
-}
-
 .description {
+  background: #fff;
   overflow:hidden;
+  color: #000;
   line-height: 50px;
   transition: all .5s ease-in-out;
   height: 0;
