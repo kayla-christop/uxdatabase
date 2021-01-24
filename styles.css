@@ -347,7 +347,7 @@ form {
 
 #homepage {
   height: 100%;
-  overflow: visible;
+  overflow: hidden;
 }
 
 #about {
