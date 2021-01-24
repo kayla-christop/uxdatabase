@@ -238,31 +238,31 @@ form {
     transform: rotate(45deg);
   }
 
-  .fadeinfirst {
+  /* .fadeinfirst {
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
-  }
+  } */
 
-#intro {
+/* #intro {
   font-size: 85px;
   text-align: center;
   margin-top: 170px;
   color: rgb(243, 82, 82);
-}
+} */
 
-#bottomtext {
+/* #bottomtext {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
   text-align: center;
   font-size: 35px;
   color:#262625;
-}
+} */
 
-.fadeinsecond {
+/* .fadeinsecond {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
   -moz-animation: fadeIn ease 5s;
@@ -313,7 +313,7 @@ form {
   100% {
     opacity:1;
 }
-}
+} */
 
 #noresults {
   font-size: 20px;
@@ -329,7 +329,7 @@ form {
   color: #262625;
 }
 
-.downArrow {
+/* .downArrow {
   box-sizing: border-box;
   height: 3vw;
   width: 3vw;
@@ -343,10 +343,4 @@ form {
 .downArrow:hover {
   border-color: #545252;
   cursor: pointer;
-}
-
-#homepage {
-  height: 100%;
-  overflow: hidden;
-  transition: 1s margin ease-in;
-}
+} */
