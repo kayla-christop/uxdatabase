@@ -208,6 +208,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("about").scrollIntoView({behavior:"smooth"});
         document.getElementById("intro").style.display = "none";
         document.getElementById("bottomtext").style.display = "none";
+        document.getElementById("about").style.margin = 0;
     });
 });
 
