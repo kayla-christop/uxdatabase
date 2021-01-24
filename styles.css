@@ -344,3 +344,20 @@ form {
   border-color: #545252;
   cursor: pointer;
 } */
+
+#homepage { margin: 50px; } 
+a { text-decoration: none; }  
+
+.transitiondown {
+background: #fff;
+overflow: hidden;
+color: #000;   
+line-height: 50px;
+
+transition: all .5s ease-in-out;
+height: 0;
+}
+
+.transitiondown:target {
+height: 50px;
+}
