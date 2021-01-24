@@ -198,8 +198,7 @@ window.addEventListener("load", async function(event) {
         });
 
         document.getElementById("filteragain").style.display = "block";
-        document.getElementById("intro").style.display = "none";
-        document.getElementById("bottomtext").style.display = "none";
+        document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
     }); 
 
