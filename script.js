@@ -203,8 +203,8 @@ window.addEventListener("load", async function(event) {
     }); 
 
     document.getElementById("bottomtext").addEventListener("click",function(event){
-        document.getElementById("homepage").style.transform = "translate-y(20px)";
         document.getElementById("homepage").style["margin-top"] = "-200%";
+        document.getElementById("homepage").style.overflow = "visible";
         // document.getElementById("about").scrollIntoView({behavior:"smooth"});
         // document.getElementById("intro").style.display = "none";
         // document.getElementById("bottomtext").style.display = "none";
