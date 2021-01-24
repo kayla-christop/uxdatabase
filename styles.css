@@ -345,8 +345,9 @@ form {
   cursor: pointer;
 } */
 
-#homepage { margin: 50px; } 
-a { text-decoration: none; }  
+#homepage { 
+  margin: 50px; 
+}  
 
 .transitiondown {
 background: #fff;
