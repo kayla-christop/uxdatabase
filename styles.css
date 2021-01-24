@@ -338,10 +338,13 @@ form {
   margin-left: 50%;
   border-width: 0px 5px 5px 0px;
   transform: rotate(45deg);
-  /* transition: border-width 150ms ease-in-out; */
 }
 
 .downArrow:hover {
   border-color: #545252;
   cursor: pointer;
+}
+
+#about {
+  transition: 1s margin ease-in;
 }
