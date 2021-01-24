@@ -346,6 +346,10 @@ form {
   cursor: pointer;
 }
 
+#content {
+  margin: 50px;
+}
+
 .description {
   overflow:hidden;
   line-height: 50px;
