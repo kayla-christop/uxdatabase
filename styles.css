@@ -348,8 +348,5 @@ form {
 #homepage {
   height: 100%;
   overflow: hidden;
-}
-
-#about {
   transition: 1s margin ease-in;
 }
