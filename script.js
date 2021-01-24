@@ -141,8 +141,7 @@ window.addEventListener("load", async function(event) {
     filterForm.addEventListener("submit", function(event) {
         event.preventDefault();
 
-        document.getElementById("intro").style.display = "none";
-        document.getElementById("bottomtext").style.display = "none";
+        document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
         document.getElementById("filteragain").style.display = "none";
 
