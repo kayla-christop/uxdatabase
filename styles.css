@@ -345,3 +345,14 @@ form {
   border-color: #545252;
   cursor: pointer;
 }
+
+.description {
+  overflow:hidden;
+  line-height: 50px;
+  transition: all .5s ease-in-out;
+  height: 0;
+}
+
+.description:target {
+  height: auto;
+}
