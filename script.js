@@ -202,12 +202,17 @@ window.addEventListener("load", async function(event) {
         document.getElementById("noresults").style.display = "none";
     });
 
+    let isloaded = false;
+    this.setTimeout(function(){isloaded = true},2000)
+
     document.getElementById("bottomtext").onclick = function(){
+        if (isloaded) {
         document.getElementById("intro").style.opacity = 0;
         document.getElementById("bottomtext").style["border-color"] = 
         "white";
         document.getElementById("about").style.opacity = 1;
-        document.getElementById("homepage").style.transform = "translateY(-80px)";
+        document.getElementById("homepage").style.transform = "translateY(-100px)";
+        };
       };
 });
 
