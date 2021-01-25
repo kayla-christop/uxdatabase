@@ -372,6 +372,7 @@ form {
 }
 
 #update {
-  right: 0 !important;
-  font-size: 10px;
+  right: 0;
+  left: unset;
+  font-size: 15px;
 }
