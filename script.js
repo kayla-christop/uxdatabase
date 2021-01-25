@@ -203,7 +203,7 @@ window.addEventListener("load", async function(event) {
     });
 
     let isloaded = false;
-    this.setTimeout(function(){isloaded = true},2300)
+    this.setTimeout(function(){isloaded = true},2500)
 
     document.getElementById("bottomtext").onclick = function(){
         if (isloaded) {

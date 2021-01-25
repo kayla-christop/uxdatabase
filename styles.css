@@ -159,8 +159,6 @@ h1 {
   font-size: 25px;
 }
 
-
-
 form {
     background-color: rgb(250, 240, 240); 
     padding: 20px
@@ -365,10 +363,15 @@ form {
   transition: 2s all ease;
 }
 
-#id {
+#logo {
   position: fixed;
   bottom: 0;
   right: 0;
   z-index: 10;
   opacity: 0.7;
+}
+
+#update {
+  right: 0;
+  font-size: 10px;
 }
