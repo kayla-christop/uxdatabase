@@ -211,7 +211,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("bottomtext").style["border-color"] = 
         "white";
         document.getElementById("about").style.opacity = 1;
-        document.getElementById("homepage").style.transform = "translateY(-140px)";
+        document.getElementById("homepage").style.transform = "translateY(-160px)";
         };
       };
 });
