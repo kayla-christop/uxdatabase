@@ -373,6 +373,6 @@ form {
 
 #update {
   right: 0;
-  left: revert;
+  left: auto;
   font-size: 15px;
 }
