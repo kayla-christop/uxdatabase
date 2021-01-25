@@ -201,6 +201,10 @@ window.addEventListener("load", async function(event) {
         document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
     });
+
+    document.getElementById("bottomtext").onclick = function(){
+        about.toggle("fade");
+      };
 });
 
 /*
