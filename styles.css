@@ -351,4 +351,5 @@ form {
 #about {
   opacity: 0;
   transition: 20s opacity;
+  text-align: center;
 }
