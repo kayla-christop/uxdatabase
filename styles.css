@@ -358,5 +358,5 @@ form {
 
 #homepage {
   position: fixed;
-  transiton 2s all ease;
+  transition: 2s all ease;
 }
