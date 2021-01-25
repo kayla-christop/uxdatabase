@@ -372,6 +372,6 @@ form {
 }
 
 #update {
-  right: 0;
+  right: 0 !important;
   font-size: 10px;
 }
