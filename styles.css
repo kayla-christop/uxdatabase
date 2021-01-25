@@ -159,6 +159,8 @@ h1 {
   font-size: 25px;
 }
 
+
+
 form {
     background-color: rgb(250, 240, 240); 
     padding: 20px
@@ -361,4 +363,8 @@ form {
 #homepage {
   position: fixed;
   transition: 2s all ease;
+}
+
+#id {
+  position: sticky;
 }
