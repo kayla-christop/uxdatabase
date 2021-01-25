@@ -203,7 +203,9 @@ window.addEventListener("load", async function(event) {
     });
 
     document.getElementById("bottomtext").onclick = function(){
-        about.toggle("fade");
+        document.getElementById("intro").style.opacity = 0;
+        document.getElementById("bottomtext").style.opacity = 0;
+        document.getElementById("about").style.opacity = 1;
       };
 });
 

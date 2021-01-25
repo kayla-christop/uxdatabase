@@ -244,6 +244,7 @@ form {
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
+    transition: 1s opacity;
   }
 
 #intro {
@@ -268,6 +269,7 @@ form {
   -moz-animation: fadeIn ease 5s;
   -o-animation: fadeIn ease 5s;
   -ms-animation: fadeIn ease 5s;
+  transition: 1s opacity;
 }
 
 @keyframes fadeIn {
@@ -346,13 +348,6 @@ form {
 }
 
 #about {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -ms-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3 ease-in-out;
-}
-#about.fade {
-  opacity:0;
+  opacity: 0;
+  transition: 1s opacity;
 }
