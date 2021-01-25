@@ -352,4 +352,6 @@ form {
   opacity: 0;
   transition: 15s opacity;
   text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
