@@ -203,7 +203,7 @@ window.addEventListener("load", async function(event) {
     });
 
     let isloaded = false;
-    this.setTimeout(function(){isloaded = true},2000)
+    this.setTimeout(function(){isloaded = true},2300)
 
     document.getElementById("bottomtext").onclick = function(){
         if (isloaded) {
@@ -211,7 +211,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("bottomtext").style["border-color"] = 
         "white";
         document.getElementById("about").style.opacity = 1;
-        document.getElementById("homepage").style.transform = "translateY(-130px)";
+        document.getElementById("homepage").style.transform = "translateY(-140px)";
         };
       };
 });
