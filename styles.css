@@ -345,8 +345,3 @@ form {
   cursor: pointer;
 }
 
-#homepage {
-  height: 100%;
-  overflow: hidden;
-  transition: 1s margin ease-in;
-}
