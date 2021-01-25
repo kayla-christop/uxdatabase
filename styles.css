@@ -244,7 +244,7 @@ form {
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
-    transition: 5s opacity;
+    transition: 2s opacity;
   }
 
 #intro {
@@ -269,7 +269,7 @@ form {
   -moz-animation: fadeIn ease 5s;
   -o-animation: fadeIn ease 5s;
   -ms-animation: fadeIn ease 5s;
-  transition: 5s opacity;
+  transition: 2s opacity;
 }
 
 @keyframes fadeIn {
@@ -340,7 +340,7 @@ form {
   margin-left: 50%;
   border-width: 0px 5px 5px 0px;
   transform: rotate(45deg);
-  transition: 3s border-color;
+  transition: 2s border-color;
 }
 
 .downArrow:hover {
