@@ -48,9 +48,9 @@ window.addEventListener("load", async function(event) {
         let button = document.createElement("button")
         button.className = "downloadButton";
         button.onclick = function(event) {
-            location.href = tool.link;
+            window.open(tool.link);
         };
-        button.innerText = "Download";
+        button.innerText = "Go to Site";
         left.appendChild(button);
 
         let right = document.createElement("div");
@@ -170,7 +170,7 @@ window.addEventListener("load", async function(event) {
                 return tool.features.includes(featureCheck);
             });
 
-            if (isBest.checked && !checkedCategories.includes(tool.category[0])) {
+            if (!isBest.checked && !checkedCategories.includes(tool.category[0])) {
                 isChecked=false
             }
 
