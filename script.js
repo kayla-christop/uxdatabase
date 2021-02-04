@@ -144,6 +144,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
         document.getElementById("filteragain").style.display = "none";
+        document.getElementById("loader").style.display = "block";
 
         let categories = document.getElementsByClassName("categories");        
         let checkedCategories = [];
@@ -185,6 +186,8 @@ window.addEventListener("load", async function(event) {
         if (!areresults) {
             document.getElementById("noresults").style.display = "block";
         }
+        
+        document.getElementById("loader").style.display = "none";
     });
 
     document.getElementById("clearButton").addEventListener("click",function(event){
