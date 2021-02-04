@@ -377,3 +377,7 @@ form {
   left: auto;
   font-size: 15px;
 }
+
+#loader {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(75%) saturate(5080%) hue-rotate(331deg) brightness(100%) contrast(91%);
+}
