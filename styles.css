@@ -380,6 +380,6 @@ form {
 
 #loader {
   filter: brightness(0) saturate(100%) invert(58%) sepia(75%) saturate(5080%) hue-rotate(331deg) brightness(100%) contrast(91%);
-  padding-left: 200px;
-  padding-top: 350px;
+  padding-left: 500px;
+  padding-top: 250px;
 }
