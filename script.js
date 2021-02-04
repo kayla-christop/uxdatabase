@@ -149,7 +149,7 @@ window.addEventListener("load", async function(event) {
             setTimeout(function(){
                 document.getElementById("loader").style.display = "none";
                 resolve();
-            },2000);
+            },750);
         });
 
         let categories = document.getElementsByClassName("categories");        
