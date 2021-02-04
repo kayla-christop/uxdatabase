@@ -138,7 +138,7 @@ window.addEventListener("load", async function(event) {
 
     let isBest = document.getElementById("isBest");
 
-    filterForm.addEventListener("submit", function(event) {
+    filterForm.addEventListener("submit", async function(event) {
         event.preventDefault();
 
         document.getElementById("homepage").style.display = "none";
