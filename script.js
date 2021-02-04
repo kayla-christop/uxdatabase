@@ -148,6 +148,7 @@ window.addEventListener("load", async function(event) {
         await new Promise(function(resolve){
             setTimeout(function(){
                 document.getElementById("loader").style.display = "none";
+                resolve();
             },5000);
         });
 
