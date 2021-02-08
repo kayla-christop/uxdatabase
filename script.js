@@ -167,7 +167,9 @@ window.addEventListener("load", async function(event) {
                 checkedFeatures.push(feature.name);
             }
         });
-
+        
+        let filterText = "Results For: " + checkedCategories.concat(checkedFeatures);
+        document.getElementById("resultslist").innerText = filterText;
         let areresults=false;
 
         database.tools.forEach(function(tool) {
