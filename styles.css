@@ -386,4 +386,6 @@ form {
 
 #resultslist {
   margin-bottom: 10px;
+  color: rgb(238, 237, 237);
+  font-size: 14px;
 }
