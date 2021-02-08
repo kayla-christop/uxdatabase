@@ -383,3 +383,7 @@ form {
   padding-left: 500px;
   padding-top: 250px;
 }
+
+#resultslist {
+  margin-bottom: 10px;
+}
