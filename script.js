@@ -168,7 +168,7 @@ window.addEventListener("load", async function(event) {
             }
         });
         
-        let filterText = "Results For: " + checkedCategories.concat(checkedFeatures);
+        let filterText = "Results For: " + JSON.stringify(checkedCategories.concat(checkedFeatures));
         document.getElementById("resultslist").innerText = filterText;
         let areresults=false;
 
