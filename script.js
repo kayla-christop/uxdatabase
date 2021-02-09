@@ -192,7 +192,7 @@ window.addEventListener("load", async function(event) {
         });
 
 
-    let filterText = resultsnumber + " Results For:" + checkedCategories.concat(checkedFeatures).map(function(x){
+    let filterText = resultsnumber + " Results for:" + checkedCategories.concat(checkedFeatures).map(function(x){
         return " \"" + x + " \"";
     });
     document.getElementById("resultslist").innerText = filterText;
