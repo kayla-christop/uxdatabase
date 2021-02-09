@@ -168,12 +168,9 @@ window.addEventListener("load", async function(event) {
             }
         });
         
-        let filterText = "Results For:" + checkedCategories.concat(checkedFeatures).map(function(x){
-            return " \"" + x + " \"";
-        });
-        document.getElementById("resultslist").innerText = filterText;
         let areresults=false;
 
+        let resultsnumber = 0;
         database.tools.forEach(function(tool) {
             let isChecked = checkedCategories.every(function(categoryCheck) {
                 return tool.category.includes(categoryCheck);
@@ -186,6 +183,7 @@ window.addEventListener("load", async function(event) {
             }
 
             if (isChecked) {
+                resultsnumber++;
                 toolDivList[tool.name].style.display = "block";
                 areresults=true;
             } else {
@@ -197,6 +195,11 @@ window.addEventListener("load", async function(event) {
             document.getElementById("noresults").style.display = "block";
         }
     });
+
+    let filterText = resultsnumber + " Results For:" + checkedCategories.concat(checkedFeatures).map(function(x){
+        return " \"" + x + " \"";
+    });
+    document.getElementById("resultslist").innerText = filterText;
 
     document.getElementById("clearButton").addEventListener("click",function(event){
         let checkboxes = document.querySelectorAll("input[type=checkbox]");
