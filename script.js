@@ -221,7 +221,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("noresults").style.display = "none";
     });
 
-    let isloaded = false;
+    let isloaded = true;
     this.setTimeout(function(){isloaded = true},2500)
 
     document.getElementById("bottomtext").onclick = function(){
