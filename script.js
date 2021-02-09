@@ -1,7 +1,7 @@
 window.addEventListener("load", async function(event) {
     setTimeout(function(){
         document.getElementById("bottomtext").click();
-    },2000)
+    },2501)
     let database = await (await fetch("/Database.json")).json();
 
     let body = document.getElementById("body");
@@ -221,7 +221,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("noresults").style.display = "none";
     });
 
-    let isloaded = true;
+    let isloaded = false;
     this.setTimeout(function(){isloaded = true},2500)
 
     document.getElementById("bottomtext").onclick = function(){
