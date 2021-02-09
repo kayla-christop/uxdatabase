@@ -1,4 +1,5 @@
 window.addEventListener("load", async function(event) {
+    fetch("https://api.github.com/repos/kayla-christop/uxdatabase/branches/master").then(response=>response.json().then(data=>document.getElementById("update").innerText=data.commit.commit.author.date.replace(/T.+/,"")));
     setTimeout(function(){
         document.getElementById("bottomtext").click();
     },2500)
