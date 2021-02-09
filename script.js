@@ -184,7 +184,7 @@ window.addEventListener("load", async function(event) {
 
             if (isChecked) {
                 resultsnumber++;
-                toolDivList[tool.name].getElementsByClassName("product")Array[0].style.height = "0px";
+                toolDivList[tool.name].getElementsByClassName("product")[0].style.height = "0px";
                 toolDivList[tool.name].style.display = "block";
                 areresults=true;
             } else {
