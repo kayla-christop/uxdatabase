@@ -1,4 +1,7 @@
 window.addEventListener("load", async function(event) {
+    setTimeout(function(){
+        document.getElementById("bottomtext").click();
+    },4000)
     let database = await (await fetch("/Database.json")).json();
 
     let body = document.getElementById("body");
