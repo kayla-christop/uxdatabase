@@ -255,14 +255,14 @@ form {
   color: rgb(243, 82, 82);
 }
 
-#bottomtext {
-  /* animation-delay: 2s; */
+/* #bottomtext {
+  animation-delay: 2s; 
   animation-fill-mode: forwards;
   opacity: 0;
   text-align: center;
   font-size: 35px;
   color:#262625;
-}
+} */
 
 /* .fadeinsecond {
   animation: fadeIn ease 5s;
