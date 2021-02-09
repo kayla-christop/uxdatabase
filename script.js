@@ -141,6 +141,10 @@ window.addEventListener("load", async function(event) {
     filterForm.addEventListener("submit", async function(event) {
         event.preventDefault();
 
+        Object.values(toolDivList).forEach(function(div){
+            div.style.display = "none";
+            div.getElementsByClassName("product")[0].style.height = "0px";
+        });
         document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
         document.getElementById("filteragain").style.display = "none";
@@ -184,12 +188,9 @@ window.addEventListener("load", async function(event) {
 
             if (isChecked) {
                 resultsnumber++;
-                toolDivList[tool.name].getElementsByClassName("product")[0].style.height = "0px";
                 toolDivList[tool.name].style.display = "block";
                 areresults=true;
-            } else {
-                toolDivList[tool.name].style.display = "none";
-            }
+            };
         });
 
 
