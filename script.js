@@ -191,15 +191,16 @@ window.addEventListener("load", async function(event) {
             }
         });
 
-        if (!areresults) {
-            document.getElementById("noresults").style.display = "block";
-        }
-    });
 
     let filterText = resultsnumber + " Results For:" + checkedCategories.concat(checkedFeatures).map(function(x){
         return " \"" + x + " \"";
     });
     document.getElementById("resultslist").innerText = filterText;
+
+        if (!areresults) {
+            document.getElementById("noresults").style.display = "block";
+        }
+    });
 
     document.getElementById("clearButton").addEventListener("click",function(event){
         let checkboxes = document.querySelectorAll("input[type=checkbox]");
