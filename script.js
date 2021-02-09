@@ -139,7 +139,7 @@ window.addEventListener("load", async function(event) {
         // featuresListDiv.appendChild(document.createElement("br"))
     });
 
-    let isBest = document.getElementById("isBest");
+    let Expanded = document.getElementById("Expanded");
 
     filterForm.addEventListener("submit", async function(event) {
         event.preventDefault();
@@ -185,7 +185,7 @@ window.addEventListener("load", async function(event) {
                 return tool.features.includes(featureCheck);
             });
 
-            if (!isBest.checked && !checkedCategories.includes(tool.category[0])) {
+            if (!Expanded.checked && !checkedCategories.includes(tool.category[0])) {
                 isChecked=false
             }
 
@@ -196,10 +196,9 @@ window.addEventListener("load", async function(event) {
             };
         });
 
-
     let filterText = resultsnumber + " Results for:" + checkedCategories.concat(checkedFeatures).map(function(x){
         return " \"" + x + " \"";
-    });
+    }) + (Expanded.checked ? ", Show Expanded Results" : "");
     document.getElementById("resultslist").innerText = filterText;
 
         if (!areresults) {

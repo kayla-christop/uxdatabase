@@ -137,7 +137,7 @@ input[type = submit]:hover, #clearButton:hover {
 cursor: pointer
 }
 
-#bestResults {
+#expandedResults {
   margin-top: 3px;
   margin-right: 15px;
 }
