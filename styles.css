@@ -389,3 +389,8 @@ form {
   color: rgb(156, 156, 156);
   font-size: 14px;
 }
+
+#update {
+  float:right;
+  width:auto;
+}
