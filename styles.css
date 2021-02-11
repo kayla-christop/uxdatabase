@@ -393,4 +393,6 @@ form {
 #update {
   float:right;
   width:auto;
+  padding-right: 20px;
+  padding-top: 20px;
 }
