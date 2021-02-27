@@ -210,6 +210,12 @@ window.addEventListener("load", async function(event) {
         }
     });
 
+    document.getElementById("allButton").addEventListener("click",function(event){
+        Object.values(toolDivList).forEach(function(tool){
+            tool.style.display = "block"
+        });  
+    });
+
     document.getElementById("clearButton").addEventListener("click",function(event){
         let checkboxes = document.querySelectorAll("input[type=checkbox]");
         Array.from(checkboxes).forEach(function(checkbox){
