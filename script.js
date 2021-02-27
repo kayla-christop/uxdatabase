@@ -210,15 +210,15 @@ window.addEventListener("load", async function(event) {
         }
     });
 
-    document.getElementById("allButton").addEventListener("click",function(event){
-        Object.values(toolDivList).forEach(function(tool){
-            tool.style.display = "block"
-        }); 
+    // document.getElementById("allButton").addEventListener("click",function(event){
+    //     Object.values(toolDivList).forEach(function(tool){
+    //         tool.style.display = "block"
+    //     }); 
     
-        document.getElementById("filteragain").style.display = "none";
-        document.getElementById("homepage").style.display = "none";
-        document.getElementById("noresults").style.display = "none"; 
-    });
+    //     document.getElementById("filteragain").style.display = "none";
+    //     document.getElementById("homepage").style.display = "none";
+    //     document.getElementById("noresults").style.display = "none"; 
+    // });
 
     document.getElementById("clearButton").addEventListener("click",function(event){
         let checkboxes = document.querySelectorAll("input[type=checkbox]");

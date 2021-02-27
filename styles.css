@@ -110,7 +110,7 @@ background: rgb(0,0,0,0);
   padding-right: 0px;
 }
 
-input[type = submit], #clearButton, #allButton {
+input[type = submit], #clearButton {
     display: block;
     color: white;
     border: 2px solid #262625;
@@ -126,13 +126,13 @@ input[type = submit], #clearButton, #allButton {
   margin-left: 15px;
 }
 
-#allButton {
+/* #allButton {
   border: 2px solid rgb(26, 127, 243);
   background-color:rgb(26, 127, 243); 
   margin-left: 0px;
-  margin-right: 25px;
+  margin-right: 0px
   float: left;
-}
+} */
 
 input[type = submit]:active {
     border: 2px solid #454543;
@@ -144,12 +144,12 @@ input[type = submit]:active {
   background-color: rgb(240, 102, 102)
 }
 
-#allButton:active {
+/* #allButton:active {
   border: 2px solid rgb(77, 158, 252);
   background-color: rgb(77, 158, 252)
-}
+} */
 
-input[type = submit]:hover, #clearButton:hover, #allButton:hover {
+input[type = submit]:hover, #clearButton:hover {
 cursor: pointer
 }
 
