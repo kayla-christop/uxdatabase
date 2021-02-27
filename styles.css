@@ -144,8 +144,8 @@ input[type = submit]:active {
 }
 
 #allButton:active {
-  border: 2px solid rgb(59, 147, 247);
-  background-color: rgb(59, 147, 247)
+  border: 2px solid rgb(77, 158, 252);
+  background-color: rgb(77, 158, 252)
 }
 
 input[type = submit]:hover, #clearButton:hover, #allButton:hover {
