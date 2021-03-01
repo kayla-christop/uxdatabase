@@ -34,8 +34,7 @@
             "category": [
                 "Screen Capturing/Recording Tools",
                 "Mental Modeling Tools",
-                "Interviewing Tools",
-                "Remote Testing Tools"
+                "Interviewing Tools"
             ],
             "info": {
                 "# of Pageviews per Month": "60,000 Pageviews",
@@ -52,7 +51,8 @@
                 "Collaborative",
                 "Multiplatform",
                 "Mobile Friendly",
-                "Educational Pricing"
+                "Educational Pricing",
+                "Remote Testing"
             ]
         },
         {
@@ -61,9 +61,7 @@
             "image": "data:image/png;base64,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",
             "category": [
                 "Screen Capturing/Recording Tools",
-                "Mental Modeling Tools",
-                "Remote Testing Tools",
-                "Ecosystem Mapping Tools"
+                "Mental Modeling Tools"
             ],
             "info": {
                 "# of Pageviews per Month": "10,000 Pageviews",
@@ -78,7 +76,9 @@
             },
             "features": [
                 "Multiplatform",
-                "Mobile Friendly"
+                "Mobile Friendly",
+                "Remote Testing",
+                "Ecosystem Mapping"
             ]
         
         },
@@ -87,8 +87,7 @@
             "link": "https://obsproject.com/",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/OBS.svg/1024px-OBS.svg.png",
             "category": [
-                "Screen Capturing/Recording Tools",
-                "Remote Testing Tools"
+                "Screen Capturing/Recording Tools"
             ],
             "info": {
                 "# of Pageviews per Month": "✕",
@@ -102,7 +101,8 @@
                 "Conversion Funnel Analytics": "✕"
             },
             "features": [
-                "Multiplatform"
+                "Multiplatform",
+                "Remote Testing"
             ]
         },
         {
@@ -110,8 +110,7 @@
             "link": "https://custellence.com/",
             "image": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_978a77db16392d4a34132d8d265d9e46/custellence.png",
             "category": [
-                "Journey Mapping Tools",
-                "Ecosystem Mapping Tools"
+                "Journey Mapping Tools"
             ],
             "info": {
                 "# of Projects": "1 Project",
@@ -127,7 +126,8 @@
             "features": [
                 "Collaborative",
                 "Multiplatform",
-                "Educational Pricing"
+                "Educational Pricing",
+                "Ecosystem Mapping"
             ]
         },
         {
@@ -135,8 +135,7 @@
             "link": "https://www.lucidchart.com/pages/",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lucidchart_2020_logo.svg/2000px-Lucidchart_2020_logo.svg.png",
             "category": [
-                "Journey Mapping Tools",
-                "Ecosystem Mapping Tools"
+                "Journey Mapping Tools"
             ],
             "info": {
                 "# of Projects": "3 Projects/Documents",
@@ -153,7 +152,8 @@
                 "Collaborative",
                 "Multiplatform",
                 "Mobile Friendly",
-                "Educational Pricing"
+                "Educational Pricing",
+                "Ecosystem Mapping"
             ]
         },
         {
@@ -161,8 +161,7 @@
             "image": "https://static.tildacdn.com/tild3963-6439-4137-b837-616530656233/UXPRESSIA.png",
             "link": "https://uxpressia.com/",
             "category": [
-                "Journey Mapping Tools",
-                "Ecosystem Mapping Tools"
+                "Journey Mapping Tools"
             ],
             "info": {
                 "# of Projects": "1 Project",
@@ -180,7 +179,8 @@
                 "Multiplatform",
                 "Educational Pricing",
                 "External UX Integrations",
-                "Personas"
+                "Personas",
+                "Ecosystem Mapping"
             ]
         },
         {
