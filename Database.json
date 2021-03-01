@@ -206,7 +206,7 @@
             "link": "https://www.figma.com/",
             "image": "https://i.pinimg.com/originals/a5/58/b4/a558b426cb8973523f37bbed94cf0f09.png",
             "category": [
-                "Wirefirming Tools",
+                "Wireframing Tools",
                 "Prototyping Tools"
             ],
             "info": {
@@ -233,7 +233,7 @@
             "link": "https://pencil.evolus.vn/",
             "image": "https://cdn2.portableapps.com/PencilProjectPortable_128.png",
             "category": [
-                "Wirefirming Tools"
+                "Wireframing Tools"
             ],
             "info": {
                 "# of Editors": "Unlimited",
@@ -255,7 +255,7 @@
             "link": "https://ninjamock.com/",
             "image": "https://ph-files.imgix.net/18fbb168-69ca-459c-ad66-82a24a44ee97?auto=format",
             "category": [
-                "Wirefirming Tools"
+                "Wireframing Tools"
             ],
             "info": {
                 "# of Editors": "Unlimited",
@@ -425,8 +425,7 @@
             "image": "https://ph-files.imgix.net/bb8dd72c-b3e2-4204-8fca-52602f1c83e9?auto=format&auto=compress&codec=mozjpeg&cs=strip",
             "link": "https://usecontrast.com/",
             "category": [
-                "Accessbility Checkers",
-                "Wireframing Tools"
+                "Accessbility Checkers"
             ],
             "info": {
                 "# of Colorblind Simulations": "Unspecified",
@@ -448,8 +447,7 @@
             "image": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/0dacb322-9b24-11e6-b4a2-00163ed833e7/2137658582/color-oracle-screenshot.jpg",
             "link": "https://colororacle.org/",
             "category": [
-                "Accessbility Checkers",
-                "Wireframing Tools"
+                "Accessbility Checkers"
             ],
             "info": {
                 "# of Colorblind Simulations": "3",
@@ -469,8 +467,7 @@
             "image": "https://lh3.googleusercontent.com/ZTGnne5s9adggQgW8zszjKkHd8XGvTjA-emSgedbjSeYqmEgNHjglQOFr5b5ncLbiAqOx4ri=w128-h128-e365-rj-sc0x00ffffff",
             "link": "https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en",
             "category": [
-                "Accessbility Checkers",
-                "Wireframing Tools"
+                "Accessbility Checkers"
             ],
             "info": {
                 "# of Colorblind Simulations": "Unspecified",
@@ -490,8 +487,7 @@
             "image": "data:image/png;base64,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",
             "link": "https://www.getstark.co/",
             "category": [
-                "Accessbility Checkers",
-                "Wireframing Tools"
+                "Accessbility Checkers"
             ],
             "info": {
                 "# of Colorblind Simulations": "3",
