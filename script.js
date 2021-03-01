@@ -189,7 +189,7 @@ window.addEventListener("load", async function(event) {
                 return tool.features.includes(featureCheck);
             });
 
-            if (!Expanded.checked && !checkedCategories.includes(tool.category[0])) {
+            if (!Expanded.checked && (checkedCategories.length!=0 && !checkedCategories.includes(tool.category[0]))) {
                 isChecked=false
             }
 
