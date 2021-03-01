@@ -162,8 +162,7 @@
             "link": "https://uxpressia.com/",
             "category": [
                 "Journey Mapping Tools",
-                "Ecosystem Mapping Tools",
-                "Personas"
+                "Ecosystem Mapping Tools"
             ],
             "info": {
                 "# of Projects": "1 Project",
@@ -180,7 +179,8 @@
                 "Collaborative",
                 "Multiplatform",
                 "Educational Pricing",
-                "External UX Integrations"
+                "External UX Integrations",
+                "Personas"
             ]
         },
         {
@@ -624,8 +624,7 @@
             "image": "https://project-management.com/wp-content/uploads/2020/10/infolio-logo.png",
             "link": "https://www.infolio.co/templates/product-discovery/how-to-conduct-a-user-interview-with-template",
             "category": [
-                "Note Taking Tools",
-                "Personas"
+                "Note Taking Tools"
             ],
             "info": {
                 "Downloadable": "✕ (Availalbe Through Infolio)",
@@ -635,7 +634,8 @@
                 "Public Availability": "✓ (Available to Everyone who Signs-Up)"
             },
             "features": [
-                "Multiplatform"
+                "Multiplatform",
+                "Personas"
             ]
         },
         {
@@ -643,8 +643,7 @@
             "image": "https://financesonline.com/uploads/2020/10/miro-logo.png",
             "link": "https://miro.com/templates/user-interview/",
             "category": [
-                "Note Taking Tools",
-                "Personas"
+                "Note Taking Tools"
             ],
             "info": {
                 "Downloadable": "✕ (Available Through Miro)",
@@ -654,7 +653,8 @@
                 "Public Availability": "✓"
             },  
             "features": [
-                "Multiplatform"
+                "Multiplatform",
+                "Personas"
             ]
         }
     ]
