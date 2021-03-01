@@ -155,7 +155,6 @@ window.addEventListener("load", async function(event) {
         document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
         document.getElementById("filteragain").style.display = "none";
-        document.getElementById("resultslist").style.display = "none";
         document.getElementById("loader").style.display = "block";
         await new Promise(function(resolve){
             setTimeout(function(){
