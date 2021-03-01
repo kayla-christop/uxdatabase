@@ -155,6 +155,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
         document.getElementById("filteragain").style.display = "none";
+        document.getElementById("resultslist").style.display = "none";
         document.getElementById("loader").style.display = "block";
         await new Promise(function(resolve){
             setTimeout(function(){
@@ -202,7 +203,7 @@ window.addEventListener("load", async function(event) {
 
     let filterText = resultsnumber + " Results for:" + checkedCategories.concat(checkedFeatures).map(function(x){
         return " \"" + x + " \"";
-    }) + (Expanded.checked ? ", Show Expanded Results" : "");
+    }) + (Expanded.checked ? ", Include Results that may not be Best Fit" : "");
     document.getElementById("resultslist").innerText = filterText;
 
         if (!areresults) {
@@ -233,6 +234,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("filteragain").style.display = "block";
         document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
+        document.getElementById("resultslist").style.display = "none";
     });
 
     let isloaded = true;
