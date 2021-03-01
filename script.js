@@ -1,7 +1,7 @@
 window.addEventListener("load", async function(event) {
     fetch("https://api.github.com/repos/kayla-christop/uxdatabase/branches/master").then(response=>response.json().then(data=> {
-	let [year, month, day] = data.commit.commit.author.date.replace(/T.+/, "").match(/\d+(?:(?=-|$))/g);
-	document.getElementById("update").innerText = "Last updated on: " + month + "/" + day + "/" + year;
+    let [month, day, year] = (new Date(data.commit.commit.author.date)).toLocaleString("en-US", {timeZone: "America/Chicago"}).replace(/,.+/, "").match(/\d+(?:(?=\/|$))/g);
+    document.getElementById("update").innerText = "Last updated on: " + month + "/" + day + "/" + year;
 }));
     setTimeout(function(){
         document.getElementById("bottomtext").click();
