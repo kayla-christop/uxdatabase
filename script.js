@@ -233,7 +233,7 @@ window.addEventListener("load", async function(event) {
         document.getElementById("filteragain").style.display = "block";
         document.getElementById("homepage").style.display = "none";
         document.getElementById("noresults").style.display = "none";
-        document.getElementById("resultslist").style.display = "none";
+        document.getElementById("resultslist").innerText = "";
     });
 
     let isloaded = true;
