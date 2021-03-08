@@ -248,6 +248,14 @@ window.addEventListener("load", async function(event) {
         document.getElementById("homepage").style.transform = "translateY(-160px)";
         };
       };
+      document.getElementById("helpButton").onclick = function(){
+        document.getElementById("homepage").style.display = "none";
+        document.getElementById("loader").style.display = "block";
+          setTimeout(()=>{
+            document.getElementById("loader").style.display = "hidden";
+            document.getElementById("helpVideo").style.display = "block";
+          },750)
+      }
 });
 
 /*
