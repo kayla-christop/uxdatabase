@@ -147,6 +147,7 @@ input[type = submit]:active {
     background-color:#262625;
     font-size: 15px;
     border-radius: 5px;
+    margin:auto;
 }
 
 #helpButton:active {
@@ -438,6 +439,6 @@ form {
 }
 
 #helpVideo {
-margin-left: 115px;
+margin: auto;
 margin-top: 50px;
 }
