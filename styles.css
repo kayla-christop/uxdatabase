@@ -438,7 +438,7 @@ form {
   font-size: 10px;
 }
 
-#helpVideo {
+#helpVideo iframe{
 margin: auto;
-margin-top: 50px;
+text-align: center
 }
