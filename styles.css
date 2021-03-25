@@ -438,7 +438,7 @@ form {
   font-size: 10px;
 }
 
-#helpVideo iframe{
-margin: auto;
-text-align: center
+#helpVideo{
+padding-top: 0.1%;
+padding-left: 9.8%;
 }
