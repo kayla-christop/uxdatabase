@@ -243,7 +243,7 @@ window.addEventListener("load", async function(event) {
 
     document.getElementById("bottomtext").onclick = function(){
         if (isloaded) {
-        document.getElementById("intro").style.color = "white";
+        document.getElementById("intro").style.opacity = 0;
         document.getElementById("bottomtext").style["border-color"] = 
         "white";
         document.getElementById("about").style.opacity = 1;
@@ -252,6 +252,7 @@ window.addEventListener("load", async function(event) {
       };
       document.getElementById("helpButton").onclick = function(){
         document.getElementById("homepage").style.display = "none";
+        document.getElementById("intro").style.color = "white";
         document.getElementById("loader").style.display = "block";
           setTimeout(()=>{
             document.getElementById("loader").style.display = "none";
