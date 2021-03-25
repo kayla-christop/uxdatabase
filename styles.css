@@ -150,6 +150,21 @@ input[type = submit]:active {
     margin:auto;
 }
 
+#backButton {
+  display: block;
+  color: white;
+  border: 2px solid #262625;
+  background-color:#262625;
+  font-size: 15px;
+  border-radius: 5px;
+  margin:auto;
+}
+
+#backButton:active {
+  border: 2px solid #454543;
+  background-color: #454543
+}
+
 #helpButton:active {
   border: 2px solid #454543;
   background-color: #454543
@@ -165,7 +180,7 @@ input[type = submit]:active {
   background-color: rgb(77, 158, 252)
 } */
 
-input[type = submit]:hover, #clearButton:hover, #helpButton:hover {
+input[type = submit]:hover, #clearButton:hover, #helpButton:hover, #backButton:hover {
 cursor: pointer
 }
 
@@ -438,7 +453,7 @@ form {
   font-size: 10px;
 }
 
-#helpVideo{
+#helpVideo {
 padding-top: 0.1%;
 padding-left: 9.8%;
 }
