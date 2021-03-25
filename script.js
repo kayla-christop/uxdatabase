@@ -258,6 +258,10 @@ window.addEventListener("load", async function(event) {
             document.getElementById("helpVideo").style.display = "block";
           },750)
       }
+      document.getElementById("backButton").addEventListener("click",function(event){
+          document.getElementById("helpVideo").style.display = "none";
+          document.getElementById("about").style.display = "block";
+      }
 });
 
 /*
